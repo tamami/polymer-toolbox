@@ -1,0 +1,262 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install', 'tough-cookie' ]
+2 info using npm@3.5.2
+3 info using node@v4.2.6
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData tough-cookie
+8 silly fetchNamedPackageData tough-cookie
+9 silly mapToRegistry name tough-cookie
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/tough-cookie
+13 verbose request uri https://registry.npmjs.org/tough-cookie
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 12:53:56 PM
+16 verbose request id e3f61fce1f279942
+17 http request GET https://registry.npmjs.org/tough-cookie
+18 http 200 https://registry.npmjs.org/tough-cookie
+19 verbose headers { server: 'nginx/1.10.3',
+19 verbose headers   'content-type': 'application/json',
+19 verbose headers   'last-modified': 'Wed, 06 Sep 2017 11:07:12 GMT',
+19 verbose headers   etag: 'W/"59afd6e0-10a11"',
+19 verbose headers   'content-encoding': 'gzip',
+19 verbose headers   'cache-control': 'max-age=300',
+19 verbose headers   'content-length': '13591',
+19 verbose headers   'accept-ranges': 'bytes',
+19 verbose headers   date: 'Wed, 20 Sep 2017 05:53:57 GMT',
+19 verbose headers   via: '1.1 varnish',
+19 verbose headers   age: '151',
+19 verbose headers   connection: 'keep-alive',
+19 verbose headers   'x-served-by': 'cache-sin18032-SIN',
+19 verbose headers   'x-cache': 'HIT',
+19 verbose headers   'x-cache-hits': '7',
+19 verbose headers   'x-timer': 'S1505886837.407998,VS0,VE0',
+19 verbose headers   vary: 'Accept-Encoding, Accept' }
+20 silly get cb [ 200,
+20 silly get   { server: 'nginx/1.10.3',
+20 silly get     'content-type': 'application/json',
+20 silly get     'last-modified': 'Wed, 06 Sep 2017 11:07:12 GMT',
+20 silly get     etag: 'W/"59afd6e0-10a11"',
+20 silly get     'content-encoding': 'gzip',
+20 silly get     'cache-control': 'max-age=300',
+20 silly get     'content-length': '13591',
+20 silly get     'accept-ranges': 'bytes',
+20 silly get     date: 'Wed, 20 Sep 2017 05:53:57 GMT',
+20 silly get     via: '1.1 varnish',
+20 silly get     age: '151',
+20 silly get     connection: 'keep-alive',
+20 silly get     'x-served-by': 'cache-sin18032-SIN',
+20 silly get     'x-cache': 'HIT',
+20 silly get     'x-cache-hits': '7',
+20 silly get     'x-timer': 'S1505886837.407998,VS0,VE0',
+20 silly get     vary: 'Accept-Encoding, Accept' } ]
+21 verbose get saving tough-cookie to /home/tamami/.npm/registry.npmjs.org/tough-cookie/.cache.json
+22 silly install normalizeTree
+23 silly loadCurrentTree Finishing
+24 silly loadIdealTree Starting
+25 silly install loadIdealTree
+26 silly cloneCurrentTree Starting
+27 silly install cloneCurrentTreeToIdealTree
+28 silly cloneCurrentTree Finishing
+29 silly loadShrinkwrap Starting
+30 silly install loadShrinkwrap
+31 silly loadShrinkwrap Finishing
+32 silly loadAllDepsIntoIdealTree Starting
+33 silly install loadAllDepsIntoIdealTree
+34 silly resolveWithNewModule tough-cookie@2.3.2 checking installable status
+35 silly cache add args [ 'tough-cookie', null ]
+36 verbose cache add spec tough-cookie
+37 silly cache add parsed spec Result {
+37 silly cache add   raw: 'tough-cookie',
+37 silly cache add   scope: null,
+37 silly cache add   name: 'tough-cookie',
+37 silly cache add   rawSpec: '',
+37 silly cache add   spec: 'latest',
+37 silly cache add   type: 'tag' }
+38 silly addNamed tough-cookie@latest
+39 verbose addNamed "latest" is being treated as a dist-tag for tough-cookie
+40 info addNameTag [ 'tough-cookie', 'latest' ]
+41 silly mapToRegistry name tough-cookie
+42 silly mapToRegistry using default registry
+43 silly mapToRegistry registry https://registry.npmjs.org/
+44 silly mapToRegistry uri https://registry.npmjs.org/tough-cookie
+45 verbose addNameTag registry:https://registry.npmjs.org/tough-cookie not in flight; fetching
+46 verbose get https://registry.npmjs.org/tough-cookie not expired, no request
+47 silly addNameTag next cb for tough-cookie with tag latest
+48 silly addNamed tough-cookie@2.3.2
+49 verbose addNamed "2.3.2" is a plain semver version for tough-cookie
+50 silly mapToRegistry name tough-cookie
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry uri https://registry.npmjs.org/tough-cookie
+54 verbose addRemoteTarball https://registry.npmjs.org/tough-cookie/-/tough-cookie-2.3.2.tgz not in flight; adding
+55 verbose addRemoteTarball [ 'https://registry.npmjs.org/tough-cookie/-/tough-cookie-2.3.2.tgz',
+55 verbose addRemoteTarball   'f081f76e4c85720e6c37a5faced737150d84072a' ]
+56 info retry fetch attempt 1 at 12:53:57 PM
+57 info attempt registry request try #1 at 12:53:57 PM
+58 http fetch GET https://registry.npmjs.org/tough-cookie/-/tough-cookie-2.3.2.tgz
+59 http fetch 200 https://registry.npmjs.org/tough-cookie/-/tough-cookie-2.3.2.tgz
+60 silly fetchAndShaCheck shasum f081f76e4c85720e6c37a5faced737150d84072a
+61 verbose addTmpTarball /tmp/npm-26579-b350d399/registry.npmjs.org/tough-cookie/-/tough-cookie-2.3.2.tgz not in flight; adding
+62 verbose addTmpTarball already have metadata; skipping unpack for tough-cookie@2.3.2
+63 silly cache afterAdd tough-cookie@2.3.2
+64 verbose afterAdd /home/tamami/.npm/tough-cookie/2.3.2/package/package.json not in flight; writing
+65 verbose afterAdd /home/tamami/.npm/tough-cookie/2.3.2/package/package.json written
+66 silly fetchNamedPackageData punycode
+67 silly mapToRegistry name punycode
+68 silly mapToRegistry using default registry
+69 silly mapToRegistry registry https://registry.npmjs.org/
+70 silly mapToRegistry uri https://registry.npmjs.org/punycode
+71 verbose request uri https://registry.npmjs.org/punycode
+72 verbose request no auth needed
+73 info attempt registry request try #1 at 12:53:58 PM
+74 http request GET https://registry.npmjs.org/punycode
+75 http 200 https://registry.npmjs.org/punycode
+76 verbose headers { server: 'nginx/1.10.3',
+76 verbose headers   'content-type': 'application/json',
+76 verbose headers   'last-modified': 'Tue, 15 Aug 2017 14:11:10 GMT',
+76 verbose headers   etag: 'W/"599300fe-9a3b"',
+76 verbose headers   'content-encoding': 'gzip',
+76 verbose headers   'cache-control': 'max-age=300',
+76 verbose headers   'content-length': '5635',
+76 verbose headers   'accept-ranges': 'bytes',
+76 verbose headers   date: 'Wed, 20 Sep 2017 05:53:58 GMT',
+76 verbose headers   via: '1.1 varnish',
+76 verbose headers   age: '228',
+76 verbose headers   connection: 'keep-alive',
+76 verbose headers   'x-served-by': 'cache-sin18032-SIN',
+76 verbose headers   'x-cache': 'HIT',
+76 verbose headers   'x-cache-hits': '17',
+76 verbose headers   'x-timer': 'S1505886838.214791,VS0,VE0',
+76 verbose headers   vary: 'Accept-Encoding, Accept' }
+77 silly get cb [ 200,
+77 silly get   { server: 'nginx/1.10.3',
+77 silly get     'content-type': 'application/json',
+77 silly get     'last-modified': 'Tue, 15 Aug 2017 14:11:10 GMT',
+77 silly get     etag: 'W/"599300fe-9a3b"',
+77 silly get     'content-encoding': 'gzip',
+77 silly get     'cache-control': 'max-age=300',
+77 silly get     'content-length': '5635',
+77 silly get     'accept-ranges': 'bytes',
+77 silly get     date: 'Wed, 20 Sep 2017 05:53:58 GMT',
+77 silly get     via: '1.1 varnish',
+77 silly get     age: '228',
+77 silly get     connection: 'keep-alive',
+77 silly get     'x-served-by': 'cache-sin18032-SIN',
+77 silly get     'x-cache': 'HIT',
+77 silly get     'x-cache-hits': '17',
+77 silly get     'x-timer': 'S1505886838.214791,VS0,VE0',
+77 silly get     vary: 'Accept-Encoding, Accept' } ]
+78 verbose get saving punycode to /home/tamami/.npm/registry.npmjs.org/punycode/.cache.json
+79 silly resolveWithNewModule punycode@1.4.1 checking installable status
+80 silly cache add args [ 'punycode@^1.4.1', null ]
+81 verbose cache add spec punycode@^1.4.1
+82 silly cache add parsed spec Result {
+82 silly cache add   raw: 'punycode@^1.4.1',
+82 silly cache add   scope: null,
+82 silly cache add   name: 'punycode',
+82 silly cache add   rawSpec: '^1.4.1',
+82 silly cache add   spec: '>=1.4.1 <2.0.0',
+82 silly cache add   type: 'range' }
+83 silly addNamed punycode@>=1.4.1 <2.0.0
+84 verbose addNamed ">=1.4.1 <2.0.0" is a valid semver range for punycode
+85 silly addNameRange { name: 'punycode', range: '>=1.4.1 <2.0.0', hasData: false }
+86 silly mapToRegistry name punycode
+87 silly mapToRegistry using default registry
+88 silly mapToRegistry registry https://registry.npmjs.org/
+89 silly mapToRegistry uri https://registry.npmjs.org/punycode
+90 verbose addNameRange registry:https://registry.npmjs.org/punycode not in flight; fetching
+91 verbose get https://registry.npmjs.org/punycode not expired, no request
+92 silly addNameRange number 2 { name: 'punycode', range: '>=1.4.1 <2.0.0', hasData: true }
+93 silly addNameRange versions [ 'punycode',
+93 silly addNameRange   [ '0.0.1',
+93 silly addNameRange     '0.0.2',
+93 silly addNameRange     '0.0.1337',
+93 silly addNameRange     '0.1.0',
+93 silly addNameRange     '0.1.1',
+93 silly addNameRange     '0.1.2',
+93 silly addNameRange     '0.2.0',
+93 silly addNameRange     '0.2.1',
+93 silly addNameRange     '0.2.2',
+93 silly addNameRange     '0.3.0',
+93 silly addNameRange     '1.0.0',
+93 silly addNameRange     '1.1.0',
+93 silly addNameRange     '1.1.1',
+93 silly addNameRange     '1.2.0',
+93 silly addNameRange     '1.2.1',
+93 silly addNameRange     '1.2.2',
+93 silly addNameRange     '1.2.3',
+93 silly addNameRange     '1.2.4',
+93 silly addNameRange     '1.3.0',
+93 silly addNameRange     '1.3.1',
+93 silly addNameRange     '1.3.2',
+93 silly addNameRange     '1.4.0',
+93 silly addNameRange     '1.4.1',
+93 silly addNameRange     '2.0.0',
+93 silly addNameRange     '2.0.1',
+93 silly addNameRange     '2.1.0' ] ]
+94 silly addNamed punycode@1.4.1
+95 verbose addNamed "1.4.1" is a plain semver version for punycode
+96 silly mapToRegistry name punycode
+97 silly mapToRegistry using default registry
+98 silly mapToRegistry registry https://registry.npmjs.org/
+99 silly mapToRegistry uri https://registry.npmjs.org/punycode
+100 verbose addRemoteTarball https://registry.npmjs.org/punycode/-/punycode-1.4.1.tgz not in flight; adding
+101 verbose addRemoteTarball [ 'https://registry.npmjs.org/punycode/-/punycode-1.4.1.tgz',
+101 verbose addRemoteTarball   'c0d5a63b2718800ad8e1eb0fa5269c84dd41845e' ]
+102 info retry fetch attempt 1 at 12:53:58 PM
+103 info attempt registry request try #1 at 12:53:58 PM
+104 http fetch GET https://registry.npmjs.org/punycode/-/punycode-1.4.1.tgz
+105 http fetch 200 https://registry.npmjs.org/punycode/-/punycode-1.4.1.tgz
+106 silly fetchAndShaCheck shasum c0d5a63b2718800ad8e1eb0fa5269c84dd41845e
+107 verbose addTmpTarball /tmp/npm-26579-b350d399/registry.npmjs.org/punycode/-/punycode-1.4.1.tgz not in flight; adding
+108 verbose addTmpTarball already have metadata; skipping unpack for punycode@1.4.1
+109 silly cache afterAdd punycode@1.4.1
+110 verbose afterAdd /home/tamami/.npm/punycode/1.4.1/package/package.json not in flight; writing
+111 verbose afterAdd /home/tamami/.npm/punycode/1.4.1/package/package.json written
+112 silly loadAllDepsIntoIdealTree Finishing
+113 silly idealTree:prePrune my-app
+113 silly idealTree:prePrune ├── punycode@1.4.1
+113 silly idealTree:prePrune └── tough-cookie@2.3.2
+114 silly loadIdealTree Finishing
+115 silly currentTree my-app
+115 silly currentTree ├── punycode@1.4.1
+115 silly currentTree └── tough-cookie@2.3.2
+116 silly idealTree my-app
+116 silly idealTree ├── punycode@1.4.1
+116 silly idealTree └── tough-cookie@2.3.2
+117 silly generateActionsToTake Starting
+118 silly install generateActionsToTake
+119 warn checkPermissions Missing write access to /home/tamami/tmp/my-app/node_modules/tough-cookie
+120 silly rollbackFailedOptional Starting
+121 silly rollbackFailedOptional Finishing
+122 silly runTopLevelLifecycles Starting
+123 silly runTopLevelLifecycles Finishing
+124 silly install printInstalled
+125 warn enoent ENOENT: no such file or directory, open '/home/tamami/tmp/my-app/package.json'
+126 warn my-app No description
+127 warn my-app No repository field.
+128 warn my-app No README data
+129 warn my-app No license field.
+130 verbose stack Error: EACCES: permission denied, access '/home/tamami/tmp/my-app/node_modules/tough-cookie'
+130 verbose stack     at Error (native)
+131 verbose cwd /home/tamami/tmp/my-app
+132 error Linux 4.4.0-21-generic
+133 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install" "tough-cookie"
+134 error node v4.2.6
+135 error npm  v3.5.2
+136 error path /home/tamami/tmp/my-app/node_modules/tough-cookie
+137 error code EACCES
+138 error errno -13
+139 error syscall access
+140 error Error: EACCES: permission denied, access '/home/tamami/tmp/my-app/node_modules/tough-cookie'
+140 error     at Error (native)
+140 error  { [Error: EACCES: permission denied, access '/home/tamami/tmp/my-app/node_modules/tough-cookie']
+140 error   errno: -13,
+140 error   code: 'EACCES',
+140 error   syscall: 'access',
+140 error   path: '/home/tamami/tmp/my-app/node_modules/tough-cookie' }
+141 error Please try running this command again as root/Administrator.
+142 verbose exit [ -13, true ]
